@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"by.bsac.practice2.individual","c":"SortingNumberLength","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"by.bsac.practice2.individual","c":"SortingNumberLength","l":"SortingNumberLength()","url":"%3Cinit%3E()"}]

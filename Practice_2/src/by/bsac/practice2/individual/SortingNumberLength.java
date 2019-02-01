@@ -10,7 +10,15 @@ import java.util.Comparator;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
+/**
+ * Input n numbers;
+ * Sort numbers by them length;
+ * Reverse sort numbers by tme length;
+ */
 public class SortingNumberLength {
+    /**
+     * The main method
+     */
     public static void main(String[] args) {
         System.out.print("Enter the number of elements: ");
         Scanner scan = new Scanner(System.in);

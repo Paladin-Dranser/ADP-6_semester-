@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"by.bsac.practice2.individual","l":"SortingNumberLength"}]
