@@ -1,5 +1,9 @@
 package by.bsac.practice2.individual;
 
+/*
+    Выканаць цыклічны зрух матрыцы на k элементаў (ва ўсе бакі)
+ */
+
 import java.util.Scanner;
 import java.util.Random;
 

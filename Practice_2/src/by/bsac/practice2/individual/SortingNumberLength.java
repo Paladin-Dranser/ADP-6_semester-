@@ -13,7 +13,7 @@ import java.time.LocalTime;
 /**
  * Input n numbers;
  * Sort numbers by them length;
- * Reverse sort numbers by tme length;
+ * Reverse sort numbers by the length;
  */
 public class SortingNumberLength {
     /**
@@ -24,7 +24,7 @@ public class SortingNumberLength {
         Scanner scan = new Scanner(System.in);
         try {
             int theNumberOfNumbers = scan.nextInt();
-            System.out.println(theNumberOfNumbers);
+
             String[] arrayOfNumbers = new String[theNumberOfNumbers];
 
             for (int i = 0; i < arrayOfNumbers.length; i++) {
@@ -41,10 +41,12 @@ public class SortingNumberLength {
             System.out.println("After sorting by the number length:");
             System.out.println(Arrays.toString(arrayOfNumbers));
 
-            Arrays.sort(arrayOfNumbers, Collections.reverseOrder());
-
             System.out.println("After reverse sorting by the number length:");
-            System.out.println(Arrays.toString(arrayOfNumbers));
+            System.out.print("[");
+            for (int i = arrayOfNumbers.length - 1; i > 0; i--) {
+                System.out.print(arrayOfNumbers[i] + ", ");
+            }
+            System.out.println(arrayOfNumbers[0] + "]");
         } catch (java.util.InputMismatchException error) {
             System.err.println("Input error: " + error);
         }
