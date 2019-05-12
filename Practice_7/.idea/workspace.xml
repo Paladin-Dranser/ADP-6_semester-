@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6adc9879-922d-4e54-bfb7-48577b6f5cec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mariadb_jdbc_mariadb_java_client_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsac/practice_7/Candy/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsac/practice_7/Candy/ChocolateCandy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsac/practice_7/Candy/MariadbCandyDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsac/practice_7/Candy/SugarCandy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsac/practice_7/Individual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsac/practice_7/Present/NewYearPresent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/bsac/practice_7/connectionPool/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_6/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6adc9879-922d-4e54-bfb7-48577b6f5cec" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsac/practice_7/Individual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="285">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsac/practice_7/Candy/MariadbCandyDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="855">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsac/practice_7/connectionPool/ConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="405">
               <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -308,16 +296,17 @@
       <workItem from="1557474956289" duration="307000" />
       <workItem from="1557482428706" duration="8041000" />
       <workItem from="1557500166881" duration="103000" />
+      <workItem from="1557587856234" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10915000" />
+    <option name="totallyTimeSpent" value="11018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="29" width="1370" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26510575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2688822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -353,8 +342,18 @@
     <entry file="file://$PROJECT_DIR$/src/by/bsac/practice_7/Present/MariadbPresentDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/by/bsac/practice_7/Individual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="285">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsac/practice_7/Candy/MariadbCandyDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -389,19 +388,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsac/practice_7/Candy/MariadbCandyDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsac/practice_7/connectionPool/ConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="405">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />

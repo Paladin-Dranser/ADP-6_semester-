@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gems>
+    <gem>
+        <name>Topaz</name>
+        <preciousness>true</preciousness>
+        <origin>Belarus</origin>
+        <visual_parameters>
+            <color>Yellow</color>
+            <transparency>50</transparency>
+            <facet>7</facet>
+        </visual_parameters>
+    </gem>
+
+    <gem>
+        <name>Ruby</name>
+        <preciousness>true</preciousness>
+        <origin>Japan</origin>
+        <visual_parameters>
+            <color>Red</color>
+            <transparency>40</transparency>
+            <facet>5</facet>
+        </visual_parameters>
+    </gem>
+
+    <gem>
+        <name>Sapphire</name>
+        <preciousness>true</preciousness>
+        <origin>China</origin>
+        <visual_parameters>
+            <color>Blue</color>
+            <transparency>65</transparency>
+            <facet>4</facet>
+        </visual_parameters>
+    </gem>
+</gems>

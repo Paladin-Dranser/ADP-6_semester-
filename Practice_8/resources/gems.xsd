@@ -1,0 +1,26 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="gems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="gem" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:boolean" name="preciousness"/>
+              <xs:element type="xs:string" name="origin"/>
+              <xs:element name="visual_parameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="color"/>
+                    <xs:element type="xs:int" name="transparency" maxOccurs="100"/>
+                    <xs:element type="xs:int" name="facet" maxOccurs="15"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
